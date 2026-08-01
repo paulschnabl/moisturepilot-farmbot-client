@@ -3,8 +3,6 @@
 **FarmBot users:** follow the complete setup and operating guide in
 [`USER_INSTRUCTIONS.md`](USER_INSTRUCTIONS.md).
 
-**Project owner:** automatic verified Mac backups and monitoring are documented
-in [`mac_backup/README.md`](mac_backup/README.md).
 
 Experimental FarmBot Lua sequences that capture a full-garden image grid and
 produce an RGB garden mosaic with an estimated soil-moisture map using the
