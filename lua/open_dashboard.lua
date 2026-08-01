@@ -1,5 +1,5 @@
 -- Send a fresh secure link to the latest completed MoisturePilot scan.
-local u="https://moisturepilot-farmbot-api.onrender.com"
+local u="https://moisturepilot-farmbot-api-production.up.railway.app"
 local d,k=env("MP_DEVICE_ID"),env("MP_DEVICE_KEY")
 if not d or not k then
  local r,e=http({url=u.."/v1/farmbot/enroll",method="POST",headers={Authorization="Bearer "..auth_token()}})
