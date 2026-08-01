@@ -1,4 +1,4 @@
-local u="https://moisturepilot-farmbot-api.onrender.com"
+local u="https://moisturepilot-farmbot-api-production.up.railway.app"
 for a=1,18 do local r=http({url=u.."/health"});if r and r.status==200 then break end;wait(5000)end
 local d,k=env("MP_DEVICE_ID"),env("MP_DEVICE_KEY")
 if not d or not k then
