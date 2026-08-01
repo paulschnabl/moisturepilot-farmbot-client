@@ -4,10 +4,6 @@ MoisturePilot photographs your FarmBot garden and creates an estimated
 soil-moisture heatmap, RGB garden mosaic, moisture overlay, and downloadable
 numeric map.
 
-> **Important:** MoisturePilot estimates moisture from camera images. It is not
-> a physical moisture sensor. Do not use it as the only control for irrigation,
-> crop protection, or equipment safety.
-
 ## 1. Add the camera test sequence
 
 Before scanning the complete garden, test one camera position:
