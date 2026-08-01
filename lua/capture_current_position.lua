@@ -1,5 +1,5 @@
 -- Capture and analyze the FarmBot camera at its current X/Y/Z position.
-local url = "https://moisturepilot-farmbot-api.onrender.com"
+local url = "https://moisturepilot-farmbot-api-production.up.railway.app"
 local device, key = env("MP_DEVICE_ID"), env("MP_DEVICE_KEY")
 local model = "10cm"
 if not device or not key then
